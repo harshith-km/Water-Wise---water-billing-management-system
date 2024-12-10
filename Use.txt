@@ -1,0 +1,23 @@
+--Required Software-
+	* Install XAMPP software on Windows or Mac
+
+--Project files dumping process-
+	* extract wbms.zip file 
+	* Place wbms folder Inside xampp directory [ C:\xampp\htdocs\wbms ] 
+	
+--Database importing process-
+	* open xampp control panel 
+	* Start Apache server
+	* Start MySQL connection
+	
+	* Open any web browser and navigate to Xampp's PhpMyAdmin page [ type "localhost\phpMyAdmin\" in address bar]
+	* Select Import option
+	* Select Browse for file option
+	* Pic wbms.sql file from wbms folder inside htdocs [  C:\xampp\htdocs\wbms\database file\wbms.sql ]
+	* Click on import button to import wbms database with users, billing transaction, wallet, water usage tables
+
+--Opening project on browser-
+	* open browser and type : localhost\wbms\
+	* this will redirects to login page.
+	* "harsha@gmail.com" already registered user with password - "Password"
+	* in the same login page user id of "wbms.admin@gmail.com" with password - "Password" will allow to admin page
